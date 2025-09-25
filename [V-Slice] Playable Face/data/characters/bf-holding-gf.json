@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend (Holding GF)-r",
+  "assetPath": "characters/bfAndGF-r",
+  "flipX": true,
+  "renderType": "multisparrow",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "animations": [
+    {
+      "name": "firstDeath",
+      "prefix": "sgameover",
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [147, 56]
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "egameover",
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [25, 179]
+    },
+    {
+      "name": "deathLoop",
+      "prefix": "lgameover",
+      "looped": true,
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [28, 46]
+    },
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [-29, -15]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left",
+      "offsets": [-11, 7]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down",
+      "offsets": [-20, -60]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up",
+      "offsets": [-43, 39]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right",
+      "offsets": [-41, 12]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "failleft",
+      "offsets": [-6, 10]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "faildown",
+      "offsets": [-19, -47]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "failup",
+      "offsets": [-37, 40]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "failright",
+      "offsets": [-41, 13]
+    },
+    {
+      "name": "bfCatch",
+      "prefix": "BF catches GF",
+      "offsets": [0, 0]
+    }
+  ]
+}
